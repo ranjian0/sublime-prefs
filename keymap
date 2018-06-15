@@ -1,0 +1,20 @@
+[
+
+    {"keys" : ["ctrl+alt+o"], "command" : "hide_panel", "args": {"panel": "output.exec"}},
+
+    {"keys" : ["ctrl+g", "ctrl+l"], "command" : "git_log_all"},
+    {"keys" : ["ctrl+g", "ctrl+s"], "command" : "git_status"},
+    {"keys" : ["ctrl+g", "ctrl+d"], "command" : "git_diff_all"},
+    {"keys" : ["ctrl+g", "ctrl+k"], "command" : "git_quick_commit", "args": {"target" : "*"}},
+    {"keys" : ["ctrl+g", "ctrl+a"], "command" : "git_raw", "args": {"append_current_file" : true, "command" : "git add"}},
+    {"keys" : ["ctrl+g", "ctrl+p"], "command" : "git_raw", "args" : {"command" : "git push", "may_change_files":false}},
+
+    {"keys" : ["ctrl+shift+="], "command" : "fold_by_level", "args": {"level" : "1"}},
+    {"keys" : ["ctrl+shift+-"], "command" : "unfold_all"},
+
+    {"keys" : ["ctrl+shift+alt+="], "command" : "fold_python_docstrings"},
+    {"keys" : ["ctrl+shift+alt+-"], "command" : "unfold_python_docstrings"},
+
+    { "keys": ["shift+alt+n"], "command": "advanced_new_file_new"},
+    { "keys": ["ctrl+alt+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+]
