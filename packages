@@ -1,11 +1,30 @@
 A File Icon
 AdvancedNewFile
 AutoDocString
+BracketHighlighter
+C++ Classhelper
+C++ Completions
+CMake
+CMakeBuilder
+CMakeEditor
+Color Highlighter
 Color Scheme - Chromodynamics
+ColorPicker
+Django Starter
+EasyClangComplete
+Emmet
 Fold Python Docstrings
+GDScript (Godot Engine)
 Git
 GitGutter
+Kivy Language
+MarkdownPreview
+OpenGL Shading Language (GLSL)
 PackageControl
 PackageResourceViewer
+PyV8
 Seti_UI
+SublimeLinter
+SublimeLinter-contrib-mypy
+SublimeLinter-flake8
 zzz A File Icon zzz
